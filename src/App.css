@@ -1,0 +1,32 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-pictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 450px;
+  margin: 15px;
+}
+
+.main-pictures img {
+  height: 400px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.p1, .p2, .p3, .p4, .p5, .p6 {
+  margin: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+li {
+  padding-left: 45px;
+}
